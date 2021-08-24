@@ -43,7 +43,7 @@ def rolling_dice():
 
 
 # adding button, and command will use rolling_dice function
-button = tkinter.Button(root, text='Roll The Dice', fg='darkblue', width=25, height=5, command=rolling_dice)
+button = tkinter.Button(root, text='Roll The Dice', fg='darkblue', width=25, height=5, font= BOLD, command=rolling_dice)
 
 # pack a widget in the parent widget
 button.pack( expand=True)
